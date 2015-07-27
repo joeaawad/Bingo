@@ -1,1 +1,3 @@
 # Bingo
+
+This is an automatic Bingo game creator from my 5th week in Phase 0 (the remote study portion) of DBC. To run the game, clone the repository and run "ruby bingo.rb" from the command line. It generates a new board according to bingo rules, makes legal and non-repetitive guesses, prints the guess, checks if the board contains that guess and prints the board. If the guess is present on the board, it marks that spot with an "X" and checks if there is a horizontal, vertical, diagonal, ouside corners, inside corners or small diamond bingo. If it finds a bingo, it ends the game and tells you which type of bingo it found. If there happen to be multiple bingos on the same turn, it tells you all of them.
